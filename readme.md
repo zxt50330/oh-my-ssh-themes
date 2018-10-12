@@ -2,3 +2,4 @@
 
  编辑`~/.box-name`可以修改主机名
 
+基于pygmalion修改
