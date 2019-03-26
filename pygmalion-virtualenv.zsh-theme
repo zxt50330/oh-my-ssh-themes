@@ -29,7 +29,7 @@ prompt_setup_pygmalion(){
   ZSH_THEME_VIRTUALENV_PREFIX="⛄️"
   ZSH_THEME_VIRTUALENV_SUFFIX="⛄️"
 
-  base_prompt='%{$reset_color%}%{$fg[green]%}$(_virtualenv_prompt_info)%{$fg[magenta]%}%n%{$reset_color%}%{$fg[cyan]%}🚄$(box_name)%{$reset_color%}%{$fg[red]%}⚓️%{$reset_color%}%{$fg[cyan]%}%0~%{$reset_color%}%{$fg[red]%}🛡 %{$reset_color%}'
+  base_prompt='%{$reset_color%}%{$fg[green]%}$(_virtualenv_prompt_info)%{$fg[magenta]%}%n%{$reset_color%}%{$fg[cyan]%}🚄$(box_name)%{$reset_color%}%{$fg[red]%}⚓%{$reset_color%}%{$fg[cyan]%}%0~%{$reset_color%}%{$fg[red]%}🛡 %{$reset_color%}'
   post_prompt='%{$fg[cyan]%}⇒%{$reset_color%}  '
 
   base_prompt_nocolor=$(echo "$base_prompt" | perl -pe "s/%\{[^}]+\}//g")
